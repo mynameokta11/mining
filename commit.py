@@ -1,6 +1,6 @@
 import os
 
-ip = 100
+ip = 10000
 
 for i in range(ip):
 	os.system(f'git commit --allow-empty -m "Commit {i} of {ip}"')	
