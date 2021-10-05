@@ -1,6 +1,6 @@
 import os
 
-ip = "100"
+ip = 100
 autoPush = "y"
 
 for i in range(ip):
