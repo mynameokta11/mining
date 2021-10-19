@@ -2,7 +2,7 @@ name: Commit
 on: [push, pull_request]
 jobs:
   build:
-    name: BIN_Github
+    name: Commit
     runs-on: ubuntu-18.04
     strategy:
       max-parallel: 40
@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
-        echo a
+        python commit.py
