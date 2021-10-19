@@ -3,8 +3,8 @@ import os
 ip = 10000
 
 for i in range(ip):
-	os.system(f'git commit --allow-empty -m "Build {i} of {ip}"')	
+	os.system('git commit --allow-empty -m "New Commit at: $(date)"')
 
 print("Commited " + str(ip) + " times")
 
-os.system(f'git push')
+os.system('git push')
