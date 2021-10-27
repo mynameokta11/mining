@@ -1,4 +1,3 @@
-   
 #!/bin/bash
 proxy="socks5://ewean:dikamarmandi@143.198.163.97:333"
 array[0]="0001"
